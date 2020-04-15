@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#shapes {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+#red_sq {
+  background-color: red;
+}
+
+#blue_sq {
+  background-color: blue;
+}
+
+#blue_ci {
+  flex-direction: column;
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  background-color: blue;
+}
+
+#green_sq {
+  background-color: green;
+}
+
+#black_sq {
+  background-color: black;
+}
+
+.square {
+  flex-direction: column;
+  width: 240px;
+  height: 240px;
+}
+
+.grow {
+  height: 400px;
+}
